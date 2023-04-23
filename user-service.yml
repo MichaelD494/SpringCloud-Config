@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: user
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      #Eureka 服务端的地址
+      defaultZone: http://localhost:8761/eureka
+
+
